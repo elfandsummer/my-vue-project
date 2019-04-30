@@ -9,3 +9,11 @@ body {
   font-size: 12px;
   overflow-x: hidden;
 }
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+}
