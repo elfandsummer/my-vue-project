@@ -1,6 +1,6 @@
 <template>
   <div>
-    summer
+    summer111
   </div>
 </template>
 <script>
@@ -10,7 +10,9 @@
         return {}
       },
       watch: {},
-      methods: {},
+      methods: {
+      
+      },
     }
 
 </script>
