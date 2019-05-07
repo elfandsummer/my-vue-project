@@ -10,13 +10,6 @@
     </el-row>
   </div>
 </template>
-<style>
-  .el-menu-vertical-demo:not(.el-menu--collapse) {
-    width: 200px;
-    height: 100%;
-    min-height: 400px;
-  }
-</style>
 
 <script>
   import Sidebar from "../sidebar/index";
@@ -26,16 +19,9 @@
     comments: {Sidebar},
     data() {
       return {
-        isCollapse: true
       };
     },
     methods: {
-      handleOpen(key, keyPath) {
-        console.log(key, keyPath);
-      },
-      handleClose(key, keyPath) {
-        console.log(key, keyPath);
-      }
     }
   }
 </script>
