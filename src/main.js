@@ -4,6 +4,7 @@ import Vue from 'vue'
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './style/index.scss'
+import animated from 'animate.css'
 
 import App from './App'
 import router from './router'
