@@ -1,15 +1,19 @@
 <template>
-    <div>
-      winter
-    </div>
+  <div>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "layout"
+
+  export default {
+    name: "layout",
+    components: {},
+    mounted() {
     }
+
+  }
 </script>
 
-<style scoped>
+<style>
 
 </style>
