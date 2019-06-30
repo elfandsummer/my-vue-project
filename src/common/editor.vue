@@ -1,5 +1,5 @@
 <template>
-  <div id="summer" style="width: 600px;height: 600px;">
+  <div id="editor" style="width: 600px;height: 600px;">
   </div>
 </template>
 
@@ -8,15 +8,17 @@
 
   export default {
     name: "layout",
-    components:{
+    props:{
+      heigth:{},
+      width:{},
+      code:{},
+      language:{},
+      theme:{},
+
     },
     mounted() {
-      window.monaco.editor.create(document.getElementById('summer'))
+      window.monaco.editor.create(document.getElementById('editor'))
     }
 
   }
 </script>
-
-<style>
-
-</style>
